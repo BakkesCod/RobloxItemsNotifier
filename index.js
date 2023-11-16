@@ -2,7 +2,7 @@ const express = require('express')
 const request = require('request');
 
 const app = express()
-const UpdateHook = ""
+const UpdateHook = process.env.ItemNotifier
 
 
 app.all('/', (req, res) => {
