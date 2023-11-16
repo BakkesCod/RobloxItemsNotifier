@@ -8,7 +8,7 @@ const UpdateHook = ""
 app.all('/', (req, res) => {
     if (req.method == "HEAD") {
         // Get Roblox Items Status
-        
+        res.send('head')
     } else {
         res.send('Yo!')
     }
